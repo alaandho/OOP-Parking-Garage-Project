@@ -1,12 +1,12 @@
 import random
 
+
 class ParkingGarage():
     def __init__(self, tickets, parkingSpaces, paidTickets):
         self.tickets = tickets
         self.parkingSpaces = parkingSpaces
         self.paidTickets = paidTickets
-        
-        
+ 
     def takeTickets(self):
         park_space = input('Please enter parking space: ')
         rand_ticket = random.choice(self.tickets)
